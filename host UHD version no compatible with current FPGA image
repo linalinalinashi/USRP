@@ -1,4 +1,9 @@
 On Matlab command window:
 (for matlab, I have an UHD version: UHD_3.15.0.0-vendor)
->>problesdru('192.168.10.2')
-got: expected FPGA compatibility number 36, but got 35
+
+If the FPGA version is incompatible with this version of host code:
+call_uhd_app('uhd_image_loader','--args="type=x300, addr=192.168.10.2"')
+
+call_uhd_app('uhd_usrp_probe','--args addr="192.168.10.2"') = problesdru('192.168.10.2')
+
+
