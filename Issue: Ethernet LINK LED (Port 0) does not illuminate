@@ -1,1 +1,7 @@
-
+If Ethernet LINK LED (Port 0) does not illuminate:
+solutions:
+- Ensure your USRP is powered on.
+- If the green LINK LED does not illuminate in port 0, you should try a different (known working) SFP+ adapter.
+- If a known good SFP+ adapter does not elicit a green LINK LED, you should attempt recovery using the HG image.
+using the link: https://kb.ettus.com/X300/X310_Device_Recovery
+In my case, I use the Linux 16.04 + Xilinx Vivado Lab Edition: 2015.4. 
