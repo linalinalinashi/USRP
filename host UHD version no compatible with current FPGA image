@@ -1,1 +1,4 @@
-
+On Matlab command window:
+(for matlab, I have an UHD version: UHD_3.15.0.0-vendor)
+>>problesdru('192.168.10.2')
+got: expected FPGA compatibility number 36, but got 35
