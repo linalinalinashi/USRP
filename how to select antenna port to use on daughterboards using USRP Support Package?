@@ -1,0 +1,4 @@
+Some daughterboards interfaced with USRP hardware have more than one RF antenna port (for example TX/RX, RX1, RX2). 
+I would like to specify which RF port is used by the USRP Transmitter and Receiver blocks from within the block parameters.
+
+https://fr.mathworks.com/matlabcentral/answers/101392-can-i-select-the-antenna-port-to-use-on-daughterboards-using-usrp-support-package
