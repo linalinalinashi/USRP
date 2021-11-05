@@ -1,0 +1,6 @@
+Underrun in Transmitter, Overrun in Receiver
+
+The "underrun" flag==1 at the transmitter indicates that MATLAB is not able to provide samples to the USRP radio, at the requested sample rate. So the samples are dropped, at the particular sampling intervals.
+The "overrun" flag==1 at the receiver indicates that MATLAB is not able to receive the samples into the work space, from the USRP radio, at the specified sample rate. So the samples are lost in the process.
+More information on this is available in the documentation page:
+https://www.mathworks.com/help/supportpkg/usrpradio/ug/detect-underruns-and-overruns.html
